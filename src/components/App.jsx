@@ -1,16 +1,35 @@
-export const App = () => {
+import { Profile } from "./Profile";
+import data from "../data/user.json"
+import stat from "../data/data.json"
+
+
+export const AppStat = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Statistics title="Upload stats" stats={stat} />
+<Statistics stats={stat} />
+
+    </>
   );
 };
+
+
+
+//task 1
+export const App = () => {
+  return (
+    <>
+      <Profile
+  username={data.username}
+  tag={data.tag}
+  location={data.location}
+  avatar={data.avatar}
+  stats={data.stats}
+/>
+    </>
+  );
+};
+    
+
+
+
