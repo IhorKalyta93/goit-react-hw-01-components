@@ -5,24 +5,26 @@ export const TransactionHistory = props => {
   return (
     <>
       <div className={styles.tableMainDiv}>
-      <table >
-        <thead className={styles.tableHead}>
-          <tr>
-            <th>Type</th>
-            <th>Amount</th>
-            <th>Currency</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          {items.map(item => (
-            <tr key={item.type}>
-              {item.amount}
-              <span>{item.currency}</span>
+        <table>
+          <thead className={styles.tableHead}>
+            <tr>
+              <th>Type</th>
+              <th>Amount</th>
+              <th>Currency</th>
             </tr>
-          ))}
-        </tbody>
-      </table></div>
+          </thead>
+
+          <tbody>
+            {items.map(item => (
+              <tr key={item.id}>
+                <td>{item.type}</td>
+                <td>{item.amount}</td>
+                <td>{item.currency}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </>
   );
 };

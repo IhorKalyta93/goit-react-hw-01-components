@@ -1,8 +1,9 @@
 .tableMainDiv {
-display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 214, 214);
 }
 
 
@@ -10,3 +11,4 @@ display: flex;
 .tableHead {
     background-color: rgb(170, 247, 254);
 }
+
