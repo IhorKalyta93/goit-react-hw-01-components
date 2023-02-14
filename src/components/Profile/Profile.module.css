@@ -1,3 +1,10 @@
+.profileMainDiv {
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+
 .profileDiv {
     padding: 15px;
     display: flex;
@@ -22,6 +29,8 @@
 }
 .infoDiv {
     background-color: rgb(227, 216, 216);
+    border: 1px solid rgb(171, 138, 138);
+    box-shadow: 3px 2px #b1b1b1;
     padding: 10px;
     list-style: none;
 display: flex; 

@@ -8,12 +8,6 @@ import friends from '../data/friends.json';
 import transactions from '../data/transactions.json';
 
 
-
-
-
-
-
-//task 1
 export const App = () => {
   return (
     <>

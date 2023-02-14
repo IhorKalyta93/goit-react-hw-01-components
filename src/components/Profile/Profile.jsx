@@ -2,7 +2,7 @@ import styles from './Profile.module.css';
 export const Profile = props => {
   const { username, tag, location, avatar, stats } = props;
   return (
-    <div>
+    <div className={styles.profileMainDiv}>
       <div className={styles.profileDiv}>
         <div>
           <img className={styles.profilePic} src={avatar} alt="User avatar" />

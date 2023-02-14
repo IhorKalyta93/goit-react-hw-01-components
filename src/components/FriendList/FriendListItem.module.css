@@ -1,0 +1,11 @@
+.FrLi {
+    width: 125px;
+    padding: 5px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    /* align-items: left; */
+    background-color: beige;
+    list-style: none;
+    box-shadow: 10px 5px #b1b1b1;
+}

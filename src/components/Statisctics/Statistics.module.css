@@ -1,0 +1,38 @@
+.statDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.statTitle {
+    font-size: 22px;
+    font-weight: 700;
+}
+.statMainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.statUl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    list-style: none;
+    margin: 3px;
+}
+.statLi {
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: aqua;
+}
+.statLiSpan {
+    /* margin-left: 3px; */
+}
