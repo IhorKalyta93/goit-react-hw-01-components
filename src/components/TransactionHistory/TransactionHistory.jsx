@@ -5,7 +5,7 @@ export const TransactionHistory = props => {
   return (
     <>
       <div className={styles.tableMainDiv}>
-        <table>
+        <table className={styles.table}>
           <thead className={styles.tableHead}>
             <tr>
               <th>Type</th>
@@ -14,7 +14,7 @@ export const TransactionHistory = props => {
             </tr>
           </thead>
 
-          <tbody>
+          <tbody className={styles.tableTableBody}>
             {items.map(item => (
               <tr key={item.id}>
                 <td>{item.type}</td>

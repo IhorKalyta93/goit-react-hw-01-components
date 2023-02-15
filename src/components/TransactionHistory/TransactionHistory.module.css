@@ -3,12 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 214, 214);
+    background-color: rgb(80, 95, 105);
 }
 
 
-
+.table {
+    /* box-shadow: 5px 5px grey; */
+    border: 2px solid rgb(0, 47, 33);
+}
 .tableHead {
     background-color: rgb(170, 247, 254);
 }
 
+.tableTableBody{
+    background-color: rgb(182, 250, 231);
+}

@@ -9,3 +9,17 @@
     list-style: none;
     box-shadow: 10px 5px #b1b1b1;
 }
+.online {
+    display: block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: green;
+}
+.offline {
+    display: block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: red;
+    }
